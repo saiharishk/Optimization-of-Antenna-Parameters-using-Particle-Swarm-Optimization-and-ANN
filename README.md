@@ -12,5 +12,4 @@ impedance matching, cross-polarization, and frequency range, gain, these can be 
 solved and analysed by using evolutionary optimization algorithms. Optimization Algorithms
 shall be used for Parameter fine-tuning, Topology exploration and Radiation pattern shaping.
 Evolutionary algorithms include Particle Swarm Optimization algorithm, genetic algorithm,
-Ant Colony optimization etc. Antenna shall be optimized with various algorithms and their
-corresponding performances on various parameters shall be compared.
+Ant Colony optimization etc. In this project, we use PSO as the main algorithm to build the neural network model of the Antenna.
