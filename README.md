@@ -13,3 +13,6 @@ solved and analysed by using evolutionary optimization algorithms. Optimization 
 shall be used for Parameter fine-tuning, Topology exploration and Radiation pattern shaping.
 Evolutionary algorithms include Particle Swarm Optimization algorithm, genetic algorithm,
 Ant Colony optimization etc. In this project, we use PSO as the main algorithm to build the neural network model of the Antenna.
+
+We have used double PSO optimization - i.e. the first time is for creating the NN model with least error and the second time while optimizing the NN_model to get the best output parameters.
+The NN model behaves as the antenna, and since antenna had to be optimized we have taken this NN model and done the optimization of parameters by feeding different objective and fitness values.
